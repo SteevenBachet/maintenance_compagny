@@ -362,11 +362,11 @@ nav {
 }
 @media screen and (max-width: 800px) {
     .accueil-container {
-        height: 530px;
+        height: 580px;
         width: 500px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .accueil-container {
         height: 700px;
         width: 320px;
@@ -803,9 +803,14 @@ nav {
     align-items: center;
 }
 .network i {
+    border: none;
     font-size: 40px;
     color: #ffffff;
     margin-right: 5px;
+    cursor: pointer;
+}
+.network a {
+    text-decoration: none;
     cursor: pointer;
 }
 .network i:hover {
